@@ -12,4 +12,9 @@ class FrontendController extends Controller
     {
         return Inertia::render('frontend/home');
     }
+
+    public function remodeling(): Response
+    {
+        return Inertia::render('frontend/remodeling');
+    }
 }

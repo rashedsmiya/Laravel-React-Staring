@@ -1,13 +1,22 @@
 import { Head } from '@inertiajs/react';
 import FrontendLayout from '@/layouts/frontend-layout';
+import { Banner } from '@/components/frontend/home/banner';
+import { WhyCreateWillSection } from '@/components/frontend/home/WhyCreateWillSection';
+import { WhyCreateWillCardsGrid } from '@/components/frontend/home/WhyCreateWillCardsGrid';
+import { HowItWorksSection } from '@/components/frontend/home/HowItWorksSection';
+import { EstateApproachSection } from '@/components/frontend/home/EstateApproachSection';
+import { FindingSupportSection } from '@/components/frontend/home/FindingSupportSection';
 
 export default function Home() {
     return (
         <FrontendLayout>
             <Head title="Home Page" />
-            <div className="flex items-center justify-center py-24">
-                <h1 className="text-3xl font-semibold">Frontend</h1>
-            </div>
+            <Banner />
+            <WhyCreateWillSection />
+            <WhyCreateWillCardsGrid />
+            <HowItWorksSection />
+            <EstateApproachSection />
+            <FindingSupportSection />
         </FrontendLayout>
     );
 }
