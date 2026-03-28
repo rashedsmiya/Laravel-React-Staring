@@ -17,4 +17,9 @@ class FrontendController extends Controller
     {
         return Inertia::render('frontend/remodeling');
     }
+
+    public function howItWorks(): Response
+    {
+        return Inertia::render('frontend/howitworks');
+    }
 }
