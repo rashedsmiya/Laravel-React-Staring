@@ -5,7 +5,7 @@ export function HeroSection() {
         <section className="relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-600 to-blue-800">
             <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-6 py-14 lg:grid-cols-2 lg:py-20">
                 <div className="max-w-xl">
-                    <h1 className="font-inter text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+                    <h1 className="font-inter text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
                         Professional Bathroom
                         <br />
                         Remodeling

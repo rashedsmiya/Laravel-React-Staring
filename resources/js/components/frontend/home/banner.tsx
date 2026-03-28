@@ -2,11 +2,12 @@ import { Fragment } from 'react';
 import { Link } from '@inertiajs/react';
 
 export function Banner() {
+
     return (
         <Fragment>
             <section
-                className="relative hero-bg text-white cover-bg"
-                style={{ backgroundImage: "url('/storage/images/hero_1774521631_vOFM8WWe.jpg')" }}
+                className="relative hero-bg text-white cover-bg bg-cover bg-center"
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1613545325278-f24b0cae1224?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGludGVyaW9yfGVufDB8fDB8fHww')" }}
             >
                 <div className="absolute inset-0 bg-blue-600 opacity-50" aria-hidden="true" />
                 <div className="relative z-10 max-w-7xl mx-auto lg:px-6 px-4 py-10 lg:py-32">
