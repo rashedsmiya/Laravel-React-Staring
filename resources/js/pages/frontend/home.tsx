@@ -1,11 +1,12 @@
 import { Head } from '@inertiajs/react';
-import FrontendLayout from '@/layouts/frontend-layout';
+
 import { Banner } from '@/components/frontend/home/banner';
-import { WhyCreateWillSection } from '@/components/frontend/home/WhyCreateWillSection';
-import { WhyCreateWillCardsGrid } from '@/components/frontend/home/WhyCreateWillCardsGrid';
-import { HowItWorksSection } from '@/components/frontend/home/HowItWorksSection';
 import { EstateApproachSection } from '@/components/frontend/home/EstateApproachSection';
 import { FindingSupportSection } from '@/components/frontend/home/FindingSupportSection';
+import { HowItWorksSection } from '@/components/frontend/home/HowItWorksSection';
+import { WhyCreateWillCardsGrid } from '@/components/frontend/home/WhyCreateWillCardsGrid';
+import { WhyCreateWillSection } from '@/components/frontend/home/WhyCreateWillSection';
+import FrontendLayout from '@/layouts/frontend-layout';
 
 export default function Home() {
     return (

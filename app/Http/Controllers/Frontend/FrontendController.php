@@ -22,4 +22,19 @@ class FrontendController extends Controller
     {
         return Inertia::render('frontend/howitworks');
     }
+
+    public function about(): Response
+    {
+        return Inertia::render('frontend/about');
+    }
+
+    public function contact(): Response
+    {
+        return Inertia::render('frontend/contact');
+    }
+
+    public function trackOrders(): Response
+    {
+        return Inertia::render('frontend/track-orders');
+    }
 }
