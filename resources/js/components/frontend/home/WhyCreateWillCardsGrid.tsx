@@ -11,30 +11,30 @@ export function WhyCreateWillCardsGrid() {
                         <p className="mx-auto mt-3 max-w-xl text-gray-500 font-inter font-normal text-xl">From complete renovations to targeted upgrades, we handle every aspect of your bathroom transformation.</p>
                     </div>
                     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="service-card bg-white">
+                        <div className="service-card bg-white p-10">
                             <div className="service-icon">
-                                <img alt="Complete Bathroom Remodeling" src="/storage/images/service_1774521661_69dGNA4V.png" />
+                                <img alt="Complete Bathroom Remodeling" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_incoming&w=740&q=80" className='w-10' />
                             </div>
                             <h3 className="mb-2 text-gray-900 font-inter font-normal text-xl">Complete Bathroom Remodeling</h3>
                             <p className="text-gray-500 font-inter font-normal text-base">Full bathroom renovations from floor to ceiling with expert craftsmanship.</p>
                         </div>
-                        <div className="service-card bg-white">
-                            <div className="service-icon">
-                                <img alt="Tub to Shower Conversion" src="/storage/images/service_1774521672_hEibCrJB.png" />
+                        <div className="service-card bg-white p-10">
+                            <div className="service-icon ">
+                                <img alt="Tub to Shower Conversion" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_incoming&w=740&q=80" className='w-10'  />
                             </div>
                             <h3 className="mb-2 text-gray-900 font-inter font-normal text-xl">Tub to Shower Conversion</h3>
                             <p className="text-gray-500 font-inter font-normal text-base">Transform your old tub into a modern, accessible shower.</p>
                         </div>
-                        <div className="service-card bg-white">
+                        <div className="service-card bg-white p-10">
                             <div className="service-icon">
-                                <img alt="Vanity & Fixture Upgrades" src="/storage/images/service_1774521682_pX9KHLRS.png" />
+                                <img alt="Vanity & Fixture Upgrades" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_incoming&w=740&q=80" className='w-10' />
                             </div>
                             <h3 className="mb-2 text-gray-900 font-inter font-normal text-xl">Vanity & Fixture Upgrades</h3>
                             <p className="text-gray-500 font-inter font-normal text-base">New vanities, toilets, sinks, and fixtures to match your style.</p>
                         </div>
-                        <div className="service-card bg-white">
+                        <div className="service-card bg-white p-10">
                             <div className="service-icon">
-                                <img alt="Tile & Flooring Installation" src="/storage/images/service_1774521694_4sYw8WJA.png" />
+                                <img alt="Tile & Flooring Installation" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_incoming&w=740&q=80" className='w-10' />
                             </div>
                             <h3 className="mb-2 text-gray-900 font-inter font-normal text-xl">Tile & Flooring Installation</h3>
                             <p className="text-gray-500 font-inter font-normal text-base">Beautiful tile work and durable flooring options.</p>
