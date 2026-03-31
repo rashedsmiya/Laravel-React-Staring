@@ -15,8 +15,8 @@ export function TeamSection() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div className="option-card flex gap-4 items-start p-12">
-                            <div className="icon-box mt-0.5">
-                                <img alt="Tub to Shower Conversion" src="https://drorange.maktechlaravel.cloud/storage/default/2.png" />
+                            <div className="icon-box mt-0.5 w-12">
+                                <img alt="Tub to Shower Conversion" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/960px-Information_icon.svg.png?_=20260201131748" />
                             </div>
                             <div>
                                 <h3 className="font-inter font-normal text-gray-900 text-2xl mb-1">
@@ -28,8 +28,8 @@ export function TeamSection() {
                             </div>
                         </div>
                         <div className="option-card flex gap-4 items-start p-12">
-                            <div className="icon-box mt-0.5">
-                                <img alt="Complete Remodel" src="https://drorange.maktechlaravel.cloud/storage/default/5.png" />
+                            <div className="icon-box mt-0.5 w-12">
+                                <img alt="Complete Remodel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/960px-Information_icon.svg.png?_=20260201131748" />
                             </div>
                             <div>
                                 <h3 className="font-inter font-normal text-gray-900 text-2xl mb-1">
@@ -41,8 +41,8 @@ export function TeamSection() {
                             </div>
                         </div>
                         <div className="option-card flex gap-4 items-start p-12">
-                            <div className="icon-box mt-0.5">
-                                <img alt="Vanity & Fixture Upgrade" src="https://drorange.maktechlaravel.cloud/storage/default/3.png" />
+                            <div className="icon-box mt-0.5 w-12">
+                                <img alt="Vanity & Fixture Upgrade" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/960px-Information_icon.svg.png?_=20260201131748" />
                             </div>
                             <div>
                                 <h3 className="font-inter font-normal text-gray-900 text-2xl mb-1">
@@ -54,8 +54,8 @@ export function TeamSection() {
                             </div>
                         </div>
                         <div className="option-card flex gap-4 items-start p-12">
-                            <div className="icon-box mt-0.5">
-                                <img alt="Tile Installation" src="https://drorange.maktechlaravel.cloud/storage/default/4.png" />
+                            <div className="icon-box mt-0.5 w-12">
+                                <img alt="Tile Installation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/960px-Information_icon.svg.png?_=20260201131748" />
                             </div>
                             <div>
                                 <h3 className="font-inter font-normal text-gray-900 text-2xl mb-1">
@@ -79,15 +79,31 @@ export function TeamSection() {
                     satisfaction guaranteed.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 
-                    {
+
                     <div className="text-center px-4">
                     <div className="why-icon p-4 mx-auto inline-block bg-white/10 rounded-full shadow-lg">
-                        <img src="https://drorange.maktechlaravel.cloud/storage/default/2.png" alt=""  className='h-6 w-6'/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt=""  className='h-6 w-6'/>
                     </div>
                     <h3 className="font-inter font-normal text-white text-2xl mb-2">Tub to Shower Conversion</h3>
                     <p className="font-inter font-normal text-white/70 text-base leading-relaxed">Replace your old bathtub with a modern, accessible walk-in shower. Perfect for improving safety and creating more space.</p>
                     </div>
-                    }
+
+                    <div className="text-center px-4">
+                    <div className="why-icon p-4 mx-auto inline-block bg-white/10 rounded-full shadow-lg">
+                        <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt=""  className='h-6 w-6'/>
+                    </div>
+                    <h3 className="font-inter font-normal text-white text-2xl mb-2">Tub to Shower Conversion</h3>
+                    <p className="font-inter font-normal text-white/70 text-base leading-relaxed">Replace your old bathtub with a modern, accessible walk-in shower. Perfect for improving safety and creating more space.</p>
+                    </div>
+
+                    <div className="text-center px-4">
+                    <div className="why-icon p-4 mx-auto inline-block bg-white/10 rounded-full shadow-lg">
+                        <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt=""  className='h-6 w-6'/>
+                    </div>
+                    <h3 className="font-inter font-normal text-white text-2xl mb-2">Tub to Shower Conversion</h3>
+                    <p className="font-inter font-normal text-white/70 text-base leading-relaxed">Replace your old bathtub with a modern, accessible walk-in shower. Perfect for improving safety and creating more space.</p>
+                    </div>
+
                 </div>
                 </div>
             </section>
@@ -103,7 +119,7 @@ export function TeamSection() {
                         quote via text message.
                     </p>
                     <a
-                        className="btn-blue-2 mb-8 inline-flex items-center justify-center gap-2"
+                        className="btn-blue-2 mb-8 inline-flex items-center justify-center gap-2 bg-blue-600 p-4 rounded text-white"
                         href="https://drorange.maktechlaravel.cloud/free-estimate"
                     >
                         Request Free Estimate
@@ -116,7 +132,7 @@ export function TeamSection() {
                         </svg>
                     </a>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <span className="check-badge font-inter text-sm font-normal">
+                        <span className="text-gray-900 font-inter text-sm font-normal">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
@@ -135,7 +151,7 @@ export function TeamSection() {
                             </svg>
                             No obligation
                         </span>
-                        <span className="check-badge font-inter text-sm font-normal">
+                        <span className="text-gray-900 font-inter text-sm font-normal">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
@@ -154,7 +170,7 @@ export function TeamSection() {
                             </svg>
                             24-hr response
                         </span>
-                        <span className="check-badge font-inter text-sm font-normal">
+                        <span className="text-gray-900 font-inter text-sm font-normal">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}

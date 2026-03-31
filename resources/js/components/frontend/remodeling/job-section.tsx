@@ -10,7 +10,7 @@ export function JobSection() {
                         A bathroom remodel is one of the best investments you can make in your home, offering both immediate enjoyment and long-term value.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 text-left justify-center">
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -28,7 +28,7 @@ export function JobSection() {
                             </svg>
                             Increase your home value by up to 70% ROI
                         </div>
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -46,7 +46,7 @@ export function JobSection() {
                             </svg>
                             Improve functionality and accessibility
                         </div>
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -64,7 +64,7 @@ export function JobSection() {
                             </svg>
                             Enhance aesthetics with modern designs
                         </div>
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -82,7 +82,7 @@ export function JobSection() {
                             </svg>
                             Better water efficiency and lower utility bills
                         </div>
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -100,7 +100,7 @@ export function JobSection() {
                             </svg>
                             Fix underlying plumbing or structural issues
                         </div>
-                        <div className="why-item font-inter font-normal text-base">
+                        <div className="why-item font-inter font-normal text-gray-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"

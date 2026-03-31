@@ -16,10 +16,10 @@ export function StayInformedSection() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                     {/* Card 1 */}
-                    <div className="inform-card !px-2 sm:!px-4">
-                        <div className="inform-icon py-2">
+                    <div className="inform-card !px-2 sm:!px-4 ">
+                        <div className="inform-icon py-2 w-12">
                             <img
-                                src="https://drorange.maktechlaravel.cloud/storage/default/13.png"
+                                src="https://cdn-icons-png.flaticon.com/512/13270/13270174.png"
                                 alt="Missing Items Reminders"
                             />
                         </div>
@@ -31,9 +31,9 @@ export function StayInformedSection() {
 
                     {/* Card 2 */}
                     <div className="inform-card !px-2 sm:!px-4">
-                        <div className="inform-icon py-2">
+                        <div className="inform-icon py-2 w-12">
                             <img
-                                src="https://drorange.maktechlaravel.cloud/storage/default/12.png"
+                                src="https://cdn-icons-png.flaticon.com/512/13270/13270174.png"
                                 alt="SMS Updates"
                             />
                         </div>
@@ -45,9 +45,9 @@ export function StayInformedSection() {
 
                     {/* Card 3 */}
                     <div className="inform-card !px-2 sm:!px-4">
-                        <div className="inform-icon py-2">
+                        <div className="inform-icon py-2 w-12">
                             <img
-                                src="https://drorange.maktechlaravel.cloud/storage/default/11.png"
+                                src="https://cdn-icons-png.flaticon.com/512/13270/13270174.png"
                                 alt="No Surprises"
                             />
                         </div>
@@ -59,9 +59,9 @@ export function StayInformedSection() {
 
                     {/* Card 4 */}
                     <div className="inform-card !px-2 sm:!px-4">
-                        <div className="inform-icon py-2">
+                        <div className="inform-icon py-2 w-12">
                             <img
-                                src="https://drorange.maktechlaravel.cloud/storage/default/10.png"
+                                src="https://cdn-icons-png.flaticon.com/512/13270/13270174.png"
                                 alt="Track Your Project Online"
                             />
                         </div>

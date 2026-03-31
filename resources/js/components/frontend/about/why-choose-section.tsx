@@ -21,7 +21,7 @@ export function WhyChooseSection() {
                         <img
                             alt="Licensed & Insured"
                             className="p-2"
-                            src="https://drorange.maktechlaravel.cloud/storage/default/Vector-6.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png"
                         />
                     </div>
                     <h3 className="mb-3 text-xl font-inter text-gray-900">
@@ -38,7 +38,7 @@ export function WhyChooseSection() {
                         <img
                             alt="Quality Craftsmanship"
                             className="p-2"
-                            src="https://drorange.maktechlaravel.cloud/storage/default/Icon-4.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png"
                         />
                     </div>
                     <h3 className="mb-3 text-xl font-inter text-gray-900">
@@ -55,7 +55,7 @@ export function WhyChooseSection() {
                         <img
                             alt="Customer Focused"
                             className="p-2"
-                            src="https://drorange.maktechlaravel.cloud/storage/default/Icon3.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png"
                         />
                     </div>
                     <h3 className="mb-3 text-xl font-inter text-gray-900">

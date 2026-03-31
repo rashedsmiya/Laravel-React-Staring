@@ -3,7 +3,7 @@ import { Fragment } from "react/jsx-runtime";
 export function ServiceAreaSection() {
     return (
         <Fragment>
-        <section className="mx-auto max-w-7xl px-4 sm:px-8 py-20 text-center">
+        <section className="mx-auto container px-4 sm:px-8 py-20 text-center">
 
             <div className="mb-4 flex justify-center">
                 <div className="flex h-12 w-12 items-center justify-center">

@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 export function LPASupportSection() {
     return (
         <Fragment>
-        <section className="max-w-7xl mx-auto bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white text-center py-16 px-4 sm:px-8">
+        <section className="container mx-auto bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white text-center py-16 px-4 sm:px-8">
             <div className="max-w-xl mx-auto">
                 <h2 className="text-2xl sm:text-[32px] font-bold font-inter text-white">
                     Ready to Work With Us?

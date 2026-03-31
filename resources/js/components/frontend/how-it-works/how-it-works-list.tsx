@@ -36,7 +36,7 @@ export function HowItWorksList() {
                                     <img
                                         alt="Submit Your Request Online"
                                         className="max-h-full max-w-full object-contain"
-                                        src="https://drorange.maktechlaravel.cloud/storage/default/Icon (5).png"
+                                        src="https://cdn-icons-png.flaticon.com/512/8285/8285279.png"
                                     />
                                 </div>
                             </div>
