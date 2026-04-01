@@ -10,12 +10,16 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::middleware('guest:admin')->group(function () {
         Route::get('/login', [AdminLoginController::class, 'showLoginForm'])->name('login');
         Route::post('/login', [AdminLoginController::class, 'login'])->name('login.store');
-        
+
     });
 
     Route::middleware(['admin'])->group(function () {
         Route::post('/logout', [AdminLoginController::class, 'logout'])->name('logout');
         Route::get('/dashboard', AdminDashboardController::class)->name('dashboard');
         Route::get('/users/list', [UserSelectionController::class, 'getUsers'])->name('users.list');
+
+        // Page Management Routes
+        Route::get('/hero-section', [App\Http\Controllers\Backend\Admin\HeroSectionController::class, 'index'])->name('hero-section');
+        Route::get('/service-section', [App\Http\Controllers\Backend\Admin\ServiceSectionController::class, 'index'])->name('service-section.index');
     });
 });
