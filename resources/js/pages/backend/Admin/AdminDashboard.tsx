@@ -72,6 +72,7 @@ export default function AdminDashboard() {
                         d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                         />
                     </svg>
+
                     <h2 className="text-lg font-semibold text-gray-800">Quick Actions</h2>
                     </div>
                     <div className="space-y-5">
@@ -160,7 +161,8 @@ export default function AdminDashboard() {
                 </div>
                 </div>
             </main>
+
             </>
             </AdminLayout>
                 );
-            }
+    }
